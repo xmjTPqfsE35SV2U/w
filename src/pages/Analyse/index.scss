@@ -17,17 +17,12 @@
   box-shadow:0 2px 4px rgba(0,0,0,0.1);
   width:auto;
   height:auto;
-  margin-top:20px;
+  margin-bottom:20px;
   .sell-message{
     font-weight:bold;
   }
 }
-// 流式布局
-
-.sellBox{
-  flex: 1;
-  min-width: 33%;
-}
+// 布局
 .shadow{
     position:relative;
 }
@@ -207,3 +202,54 @@
   font-weight: 600;
   word-wrap: break-word;
 }
+
+
+
+
+// ?????
+// 提示样式
+.visitorData{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  border: 1px solid rgba(53, 109, 255, .2);
+  padding: 8px 16px;
+  margin-top: 8px;
+  background-color: #E2F0FF;
+  .visitor{
+    display: flex;
+    div{
+      margin-right: 8px;
+    }
+  }
+}
+// 
+.contributionDegree{
+  color: rgb(122, 132, 153);
+  background-color: #f8f9fc;
+  padding: 10px 16px;
+  .num{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+  }
+}
+.rate{
+  margin-top: 10px;
+  color: rgb(122, 132, 153);
+  background-color: #f8f9fc;
+  padding: 10px 16px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  div{
+    flex: 1;
+  }
+  .num{
+    margin-top: 10px;
+    color: #000000;
+  }
+}
+
+

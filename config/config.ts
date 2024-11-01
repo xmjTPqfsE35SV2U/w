@@ -159,6 +159,6 @@ export default defineConfig({
   requestRecord: {},
 
   // icon 集
-  icons: {autoInstall: {}},
+  // icons: {autoInstall: {}},
 });
 
